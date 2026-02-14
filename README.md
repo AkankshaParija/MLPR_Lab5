@@ -6,6 +6,8 @@ The objective of this project is to build an automated pipeline to detect human 
 # Methodology
 1. Image Preprocessing: 
 The input image Plaksha_Faculty.jpg was loaded using the OpenCV library.
+<img width="1166" height="776" alt="Screenshot 2026-02-14 at 9 57 52 PM" src="https://github.com/user-attachments/assets/2b425e2c-9ec7-4390-b5e7-018bcb92aa31" />
+
 The image was converted from BGR to Grayscale to simplify the data for the face detection algorithm.
 
 3. Face Detection: 
@@ -22,6 +24,8 @@ Centroids for each cluster were calculated to represent the "average" color prof
 
 7. Template Matching: 
 A template image of Dr. Shashi Tharoor(Dr_Shashi_Tharoor.jpg) was processed through the same pipeline.
+<img width="396" height="390" alt="Screenshot 2026-02-14 at 9 58 33 PM" src="https://github.com/user-attachments/assets/31c2c6dd-c069-440e-84c7-54059d602dfa" />
+
 The model predicted the template's cluster based on its Euclidean distance to the established centroids.
 
 # KEY FINDINGS
