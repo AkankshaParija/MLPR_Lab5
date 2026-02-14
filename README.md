@@ -3,7 +3,7 @@
 # Aim: 
 The objective of this project is to build an automated pipeline to detect human faces from a group photograph and perform unsupervised machine learning to cluster them based on their color profiles (Hue and Saturation). This project demonstrates the integration of classical Computer Vision (Haar-Cascades) with statistical clustering (K-Means).
 
-# Methodology
+# Methodology  
 1. Image Preprocessing: 
 The input image Plaksha_Faculty.jpg was loaded using the OpenCV library.
 <img width="1166" height="776" alt="Screenshot 2026-02-14 at 9 57 52 PM" src="https://github.com/user-attachments/assets/2b425e2c-9ec7-4390-b5e7-018bcb92aa31" />
